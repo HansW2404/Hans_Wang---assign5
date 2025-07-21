@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper d-flex">
+        <!-- sidebar -->
+            <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar-full-height min-vh-100">
+                <a href="/" class="d-flex align-items-center mb-4 text-decoration-none text-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"class="bi bi-c-circle-fill me-2 text-white" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c.961 0 1.641.633 1.729 1.512h1.295v-.088c-.094-1.518-1.348-2.572-3.03-2.572-2.068 0-3.269 1.377-3.269 3.638v1.073c0 2.267 1.178 3.603 3.27 3.603 1.675 0 2.93-1.02 3.029-2.467v-.093H9.875c-.088.832-.75 1.418-1.729 1.418-1.224 0-1.927-.891-1.927-2.461v-1.06c0-1.583.715-2.503 1.927-2.503"/>
+                    </svg>
+                    <span class="fs-5 fw-semibold">Dashboard Kit</span>
+                </a> 
+                <ul class="nav nav-pills flex-column mb-auto"> 
+                    <li class="nav-item">
+                        <a href="#" class="nav-link custom-active">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-pie-chart-fill me-2" viewBox="0 0 16 16">
+                                <path d="M15.985 8.5H8.207l-5.5 5.5a8 8 0 0 0 13.277-5.5zM2 13.292A8 8 0 0 1 7.5.015v7.778zM8.5.015V7.5h7.485A8 8 0 0 0 8.5.015"/>
+                            </svg>
+                            Overview
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-ticket-fill me-2" viewBox="0 0 16 16">
+                                <path d="M1.5 3A1.5 1.5 0 0 0 0 4.5V6a.5.5 0 0 0 .5.5 1.5 1.5 0 1 1 0 3 .5.5 0 0 0-.5.5v1.5A1.5 1.5 0 0 0 1.5 13h13a1.5 1.5 0 0 0 1.5-1.5V10a.5.5 0 0 0-.5-.5 1.5 1.5 0 0 1 0-3A.5.5 0 0 0 16 6V4.5A1.5 1.5 0 0 0 14.5 3z"/>
+                            </svg>
+                            Tickets
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-lightbulb-fill me-2" viewBox="0 0 16 16">
+                                <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5"/>
+                            </svg>
+                            Ideas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-people-fill me-2" viewBox="0 0 16 16">
+                                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                            </svg>
+                            Contacts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-person-fill me-2" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                            </svg>
+                            Agents
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-journal-text me-2" viewBox="0 0 16 16">
+                                <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                                <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+                                <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+                            </svg>
+                            Articles
+                        </a>
+                    </li>
+
+                    <hr>
+
+                    <li>
+                        <a href="#" class="nav-link text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-nut-fill me-2" viewBox="0 0 16 16">
+                                <path d="M4.58 1a1 1 0 0 0-.868.504l-3.428 6a1 1 0 0 0 0 .992l3.428 6A1 1 0 0 0 4.58 15h6.84a1 1 0 0 0 .868-.504l3.429-6a1 1 0 0 0 0-.992l-3.429-6A1 1 0 0 0 11.42 1zm5.018 9.696a3 3 0 1 1-3-5.196 3 3 0 0 1 3 5.196"/>
+                            </svg>
+                            Settings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-award-fill me-2" viewBox="0 0 16 16">
+                                <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z"/>
+                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
+                            </svg>
+                            Subscription
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        <!-- sidebar -->
+         
+        <!-- Main Content -->
+        <div class="flex-grow-1 bg-light p-4">
+            <div class="container-fluid">
+                <!-- row 1(top bar) -->
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h4 class="fw-bold">Overview</h4>
+
+                    <div class="d-flex align-items-center gap-3">
+                        <!-- Search icon -->
+                        <button type="button" class="btn btn-light border-0 p-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search text-muted" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.242 1.1a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></svg>
+                        </button>
+                        <!-- Notification bell -->
+                        <button type="button" class="btn btn-light border-0 p-0 position-relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"class="bi bi-bell text-secondary" viewBox="0 0 16 16">
+                                <path d="M8 16a2 2 0 0 0 1.985-1.75H6.015A2 2 0 0 0 8 16zm.104-14.5a1.5 1.5 0 1 0-2.208 1.29 A5.001 5.001 0 0 0 3 8c0 .628-.134 1.197-.362 1.732a1.007 1.007 0 0 0 .149 1.098l.01.01c.205.2.48.293.765.293 H12.438c.285 0 .56-.093.765-.293l.01-.01a1.007 1.007 0 0 0 .149-1.098A4.978 4.978 0 0 1 13 8a5.001 5.001 0 0 0-2.896-4.61 1.5 1.5 0 0 0-.318-1.89z"/>
+                            </svg>
+                            <span class="position-absolute bg-danger border border-light rounded-circle" style="width: 7px; height: 7px; top: 2px; right: 2px;">
+                                <span class="visually-hidden">New alerts</span>
+                            </span>
+                        </button>
+                        <!-- Vertical Line -->
+                        <div class="vr" style="height: 24px;"></div>
+                        <!-- User avatar + name -->
+                        <div class="d-flex align-items-center">
+                            <span class="me-2 fs-6">Jones Ferdinand</span>
+                            <img src="./assets/images/photo.png" class="rounded-circle" width="32" height="32" alt="User Avatar">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- row 2 -->
+                <div class="row mb-4">
+                    <div class="col-md-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h6 class="text-muted">Unresolved</h6>
+                                <h3>60</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center border-start border-start-custom">
+                            <div class="card-body">
+                                <h6 class="text-muted">Overdue</h6>
+                                <h3 class="text-primary">16</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center border-start border-start-custom">
+                            <div class="card-body">
+                                <h6 class="text-muted">Open</h6>
+                                <h3>43</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center border-start border-start-custom">
+                            <div class="card-body">
+                                <h6 class="text-muted">On hold</h6>
+                                <h3>64</h3>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                <!-- row 3 -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                <!-- Today's trends -->
+                                    <div class="col-md-8">
+                                        <h6 class="mb-3">Today's trends</h6>
+                                        <img src="./assets/images/chart.PNG" alt="Today's Trends Chart" class="img-fluid">
+                                    </div>
+
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <div class="vr" style="height: 100%;"></div>
+                                    </div>
+
+                                    <!-- Analysis Part -->
+                                    <div class="col-md-3 d-flex flex-column justify-content-between analysis-part-body px-3">
+                                        <div class="analysis-item">
+                                            <h6 class="text-center mb-1 text-secondary">Resolved</h6>
+                                            <h5 class="text-center mb-0">449</h5>
+                                            <hr>
+                                        </div>
+                                        <div class="analysis-item">
+                                            <h6 class="text-center mb-1 text-secondary">Received</h6>
+                                            <h5 class="text-center mb-0">426</h5>
+                                            <hr>
+                                        </div>
+                                        <div class="analysis-item">
+                                            <h6 class="text-center mb-1 text-secondary">Average first response time</h6>
+                                            <h5 class="text-center mb-0">33m</h5>
+                                            <hr>
+                                        </div>
+                                        <div class="analysis-item">
+                                            <h6 class="text-center mb-1 text-secondary">Average response time</h6>
+                                            <h5 class="text-center mb-0">3h 8m</h5>
+                                            <hr>
+                                        </div>
+                                        <div class="analysis-item">
+                                            <h6 class="text-center mb-1 text-secondary">Resolution within SLA</h6>
+                                            <h5 class="text-center mb-0">94%</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- row 4 -->
+                 <div class="row mt-4">
+                    <!-- Unresolved tickets -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h6 class="mb-0">Unresolved tickets</h6>
+                            <a href="#" class="text-primary text-decoration-none small">View details</a>
+                            </div>
+                                <p class="text-muted small mb-2 pb-2">Group: Support</p>
+                                    <ul class="list-unstyled">
+                                        <li class="ticket-item-with-line d-flex justify-content-between align-items-center px-0 py-2">
+                                            Waiting on Feature Request
+                                            <span>4238</span>
+                                        </li>
+                                        <li class="ticket-item-with-line d-flex justify-content-between align-items-center px-0 py-2">
+                                            Awaiting Customer Response
+                                            <span>1005</span>
+                                        </li>
+                                        <li class="ticket-item-with-line d-flex justify-content-between align-items-center px-0 py-2">
+                                            Awaiting Developer Fix
+                                            <span>914</span>
+                                        </li>
+                                        <li class="d-flex justify-content-between align-items-center px-0 py-2">
+                                            Pending
+                                            <span>281</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tasks -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h6 class="mb-0">Tasks</h6>
+                            <a href="#" class="text-primary text-decoration-none small">View all</a>
+                            </div>
+                            <p class="text-muted small mb-2 text-secondary">Today</p>
+
+                            <!-- Tasks list -->
+                             <!-- Create new task -->
+                            <div class="d-flex justify-content-between align-items-center border-bottom py-2">
+                            <span class="text-muted small">Create new task</span>
+                            <button type="button" class="btn btn-sm btn-outline-secondary square">
+                                <span class="fw-bold">+</span>
+                            </button>
+                            </div>
+                            <form>
+                            <div class="form-check d-flex justify-content-between align-items-center border-bottom py-2">
+                                <input class="form-check-input" type="radio" name="task" checked>
+                                <label class="form-check-label flex-grow-1 ms-2">Finish ticket update</label>
+                                <span class="badge bg-warning text-dark">URGENT</span>
+                            </div>
+
+                            <div class="form-check d-flex justify-content-between align-items-center border-bottom py-2">
+                                <input class="form-check-input" type="radio" name="task">
+                                <label class="form-check-label flex-grow-1 ms-2">Create new ticket example</label>
+                                <span class="badge bg-success">NEW</span>
+                            </div>
+
+                            <div class="form-check d-flex justify-content-between align-items-center py-2">
+                                <input class="form-check-input" type="radio" name="task">
+                                <label class="form-check-label flex-grow-1 ms-2">Update ticket report</label>
+                                <span class="badge bg-secondary">DEFAULT</span>
+                            </div>
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                <!-- Main Content -->      
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

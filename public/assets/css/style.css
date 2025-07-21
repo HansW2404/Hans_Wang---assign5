@@ -1,0 +1,115 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: stretch; 
+  min-height: 100vh; 
+}
+
+.sidebar-full-height {
+  background-color: #343a40;
+  width: 280px;
+  align-self: stretch;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 1rem; /* Mobile: smaller padding */
+  background-color: #f8f9fa;
+  overflow-y: auto;
+}
+
+.custom-active {
+  background-color: #343a40;
+  color: #fff !important;
+}
+
+.custom-active svg {
+  color: #fff !important;
+}
+
+.analysis-part-body {
+  display: flex;
+  flex-direction: column;
+  height: auto; /* Mobile: auto height for analysis body */
+}
+
+.analysis-item {
+  flex: 1;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 0.5rem; /* Mobile: smaller item padding */
+  padding-bottom: 0.5rem; /* Mobile: smaller item padding */
+  width: 100%; 
+}
+
+.analysis-item hr {
+  display: block;
+  border-top: 1px solid #767676;
+  margin: 0.25rem 0; /* Mobile: smaller margin for HR */
+  width: 100%;
+}
+
+.analysis-item:last-child hr {
+  display: none;
+}
+
+.ticket-item-with-line {
+  border-bottom: 1px solid #dee2e6;
+  opacity: 1; 
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem; /* Mobile: vertical padding for ticket items */
+  padding-bottom: 0.5rem; /* Mobile: vertical padding for ticket items */
+}
+
+.card {
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 1rem rgba(0, 0, 0, 0.219);
+  margin-bottom: 1rem; /* Mobile: space between vertically stacked cards */
+}
+
+
+
+@media (min-width: 768px) {
+  .wrapper {
+    flex-direction: row; /* Desktop: sidebar and main content side-by-side */
+  }
+
+  .sidebar-full-height {
+    height: auto;
+    width: 280px; /* Desktop: sidebar fixed width */
+    flex-shrink: 0; /* Desktop: prevent sidebar from shrinking */
+  }
+
+  .main-content {
+    padding: 2rem;
+  }
+
+  .analysis-part-body {
+    height: 100%; 
+  }
+
+  .analysis-item {
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+  }
+
+  .analysis-item hr {
+    margin: 0.5rem 0; 
+  }
+
+  .card {
+    margin-bottom: 0; /* Desktop: No vertical margin for horizontally aligned cards */
+  }
+
+  .border-start-custom {
+    border-left: 1px solid #dee2e6 !important; 
+  }
+}
